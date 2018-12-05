@@ -46,7 +46,8 @@ var ChainControllerModule = (function (){
         var callback = {
             onSuccess: function(){
                 console.log("User created");
-                location.href = "http://localhost:8080/registerChain.html"
+                //location.href = "http://localhost:8080/registerChain.html"
+                location.href = "https://lab9-arsw.herokuapp.com/registerChain.html"
             },
             onFailed: function (exception){
                 alert(exception);
