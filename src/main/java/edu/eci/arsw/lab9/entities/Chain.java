@@ -5,12 +5,12 @@
  */
 package edu.eci.arsw.lab9.entities;
 
+import org.springframework.data.annotation.Id;
+
 /**
  *
  * @author danielagonzalez
  */
-import org.springframework.data.annotation.Id;
-
 public class Chain {
 
     @Id

@@ -1,6 +1,6 @@
 # Laboratorio 9
-## Arquitecturas de Software - ARSW
-## Escuela Colombiana de Ingeniería
+### Arquitecturas de Software - ARSW
+### Escuela Colombiana de Ingeniería
 
 - Daniela González
 

@@ -25,10 +25,21 @@ var RestControllerModule = (function () {
                 callback.onFailed(error);
             });
     };
+    
+    var postUser = function (user, callback) {
+        axios.post('/users/sign-up', user)
+            .then(function (response){                    
+                callback.onSuccess(response.data);
+            })
+            .catch(function (error){
+               callback.onFailed(error);
+            });
+    };
 
     return {
         getChains: getChains,
-        postChain: postChain
+        postChain: postChain,
+        postUser: postUser
     };
     
 })();

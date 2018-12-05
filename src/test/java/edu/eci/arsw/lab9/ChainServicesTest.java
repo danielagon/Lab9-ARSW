@@ -31,7 +31,6 @@ public class ChainServicesTest {
     @Test
     public void chainServicesTest(){
         int size = services.getChains().size();
-        System.out.println("Tamaño "+size);
         services.postChain("prueba", new Date().toString());
         services.postChain("monitor", new Date().toString());
         services.postChain("parcial", new Date().toString());
